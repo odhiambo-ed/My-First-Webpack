@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,12 @@
   },
   "homepage": "https://github.com/white3d/My-First-Webpack#readme",
   "devDependencies": {
+    "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
     "lodash": "^4.17.21"
